@@ -1,0 +1,76 @@
+﻿  Application.cpp
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Dependencies\OBJ_Loader\OBJ_Loader.hpp(659,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Dependencies\OBJ_Loader\OBJ_Loader.hpp(696,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Dependencies\OBJ_Loader\OBJ_Loader.hpp(702,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Dependencies\OBJ_Loader\OBJ_Loader.hpp(956,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Shader.hpp(6,19): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Shader.hpp(35,19): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Shader.hpp(54,19): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Shader.hpp(162,19): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Shader.hpp(168,19): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Object.hpp(31,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Object.hpp(46,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Object.hpp(49,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Components\Mesh.hpp(57,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Components\Mesh.hpp(60,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Components\Mesh.hpp(81,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Components\Mesh.hpp(202,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Components\Mesh.hpp(209,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Components\Mesh.hpp(217,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Components\Mirror.hpp(35,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\GreyEngine\Engine\Components\Mirror.hpp(42,19): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\Dependencies\imgui\imguiSkins\1.h(61,39): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\PC\Desktop\c coding\GreyModel3D\Dependencies\imgui\imguiSkins\1.h(61,32): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(307,134): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(445,57): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(516,51): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(722,55): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(728,59): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(317,36): warning C4101: 'resultY': unreferenced local variable
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(317,45): warning C4101: 'resultZ': unreferenced local variable
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(317,27): warning C4101: 'resultX': unreferenced local variable
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(357,36): warning C4101: 'resultY': unreferenced local variable
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(357,45): warning C4101: 'resultZ': unreferenced local variable
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(357,27): warning C4101: 'resultX': unreferenced local variable
+C:\Users\PC\Desktop\c coding\GreyModel3D\Application.cpp(177,11): warning C4101: 'CheckboxContainer': unreferenced local variable
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  3 of 3218 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    26 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+LINK : warning LNK4286: symbol '___glewDeleteBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewLinkProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewDeleteShader' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewGenBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewGetProgramInfoLog' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewDetachShader' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewBlendEquationSeparate' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewGenVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewBlendEquation' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewShaderSource' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewDeleteProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewActiveTexture' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewAttachShader' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewBufferData' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewBlendFuncSeparate' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewDeleteVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewGetProgramiv' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewGetShaderInfoLog' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewUniform1i' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewCreateProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewBindBuffer' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewCreateShader' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewGetAttribLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewCompileShader' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewGetShaderiv' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewDrawElementsBaseVertex' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewVertexAttribPointer' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewUseProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewBindSampler' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewBindVertexArray' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '___glewEnableVertexAttribArray' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\PC\Desktop\c coding\GreyModel3D\Release\vc120.pdb'; linking object as if no debug info
+  GreyModel3D.vcxproj -> C:\Users\PC\Desktop\c coding\GreyModel3D\Release\GreyModel3D.exe
