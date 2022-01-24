@@ -21,6 +21,7 @@ Variables:
 ColR: Red of color, default: 1
 <br></br>
 ColG: Red of green, default: 1
+<br>
 ColB: Red of blue, default: 1
 <br></br>
 ColA: Alpha of color, default: 1
