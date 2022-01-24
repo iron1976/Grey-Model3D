@@ -19,7 +19,7 @@ ColA: Alpha of color, default: 1
 Ver∞: Point
 <h2>Texture</h2>
 Path: full path of texture
-SizX: Width of the texture if this var is negative texture will be inverted horizontally, default: 1
+SizX: Width of the texture if this var is negative texture will be inverted horizontally, default: 1\n
 SizY: Height of the texture if this var is negative texture will be inverted vertically, default: 1
 <h2>Mirror</h2>
 IDs: ID(s) of objects that will be reflected on mirror ex: IDs:6,1 object with id 6 and 1 will be reflected.
