@@ -32,4 +32,4 @@ SizY: Height of the reflection if this var is negative reflection will be invert
 <br>
 <br>
 <h2>Export .obj file</h2>
-![image](https://user-images.githubusercontent.com/60754890/150787003-aae80885-39d7-4aa6-8831-56d2534e560c.png)
+<img src="https://cdn.discordapp.com/attachments/711524717743308821/935146135587266560/unknown.png">
