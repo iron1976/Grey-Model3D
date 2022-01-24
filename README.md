@@ -29,3 +29,7 @@ Variables:<br>
 IDs: ID(s) of objects that will be reflected on mirror ex: IDs:6,1 object with id 6 and 1 will be reflected.<br>
 SizX: Width of the reflection if this var is negative reflection will be inverted horizontally, default: 2<br>
 SizY: Height of the reflection if this var is negative reflection will be inverted vertically, default: 2<br>
+<br>
+<br>
+<h2>Export .obj file</h2>
+![image](https://user-images.githubusercontent.com/60754890/150787003-aae80885-39d7-4aa6-8831-56d2534e560c.png)
