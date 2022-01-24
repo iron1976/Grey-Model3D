@@ -25,7 +25,7 @@ vec2(0.5f, -0.5f), vec2(0.5f, 0.5f), vec2(-0.5f, -0.5f)
 
 void main()
 {
-	gl_Position = view*ortho*vec4((position+ objectPosition)* objectScale, 1.0f);
+	gl_Position = view*ortho*vec4((position + objectPosition) * objectScale, 1.0f);
 	color_data = custom_color;
 	
 	if (UseTex == 1)

@@ -47,7 +47,7 @@
     #define APP_NAME "GreyModel3D"
     constexpr int WIDTH = 1280;
     constexpr int HEIGHT = 640;
-    /*DEBUG MODE*/#define DEBUGCONSOLE 1
+    /*DEBUG MODE*/#define DEBUGCONSOLE 0
     float MouseSensitivity = 1.0f;//it is multiplied with the sensitivity(lower slower)
     auto LIGHT_COLOR = glm::vec4(1.0f, 1.0f, 1.0f, 1.0f);
 #pragma endregion

@@ -65,6 +65,42 @@ bool LOG(std::string text)
     WobjFile.close();
     return 1;
 }
+#pragma region DEMO
+#define demo()                                                                           \
+Object FirstObject;                                                                       \
+FirstObject.name = "FirstObject";                                                         \
+FirstObject.AddComponent<Transform>()->SetTransform(vec3(0), vec3(1));                    \
+FirstObject.AddComponent<Mesh>()->SetMesh(std::vector<float>{                             \
+    -0.5f, -0.5f, -0.0f,                                                                  \
+    -0.5f,  0.5f, -0.0f,                                                                  \
+     0.5f,  0.5f, -0.0f,                                                                  \
+     0.5f, -0.5f, -0.0f                                                                   \
+}, std::vector<unsigned int>{0, 1, 2, 0, 3, 2}, vec4(1, 1, 1, 1));                        \
+                                                                                          \
+Object Background;                                                                        \
+Background.name = "Background";                                                           \
+Background.AddComponent<Transform>()->SetTransform(vec3(0), vec3(1));                     \
+Background.AddComponent<Mesh>()->SetMesh(std::vector<float>{                              \
+    2.1f, -0.5f, -0.5f,                                                                   \
+    2.1f,  0.5f, -0.5f,                                                                   \
+    1.1f,  0.5f,  0.5f,                                                                   \
+    1.1f, -0.5f,  0.5f                                                                    \
+}, std::vector<unsigned int>{0, 1, 2, 0, 3, 2}, vec4(1, 1, 1, 1));                        \
+                                                                                          \
+Object MirrorObj;                                                                         \
+MirrorObj.name = "MirrorObj";                                                             \
+MirrorObj.AddComponent<Transform>()->SetTransform(vec3(0), vec3(1));                      \
+MirrorObj.AddComponent<Mesh>()->SetMesh(std::vector<float>{                               \
+    2.0f, -0.5f, -0.5f,                                                                   \
+    2.0f,  0.5f, -0.5f,                                                                   \
+    1.0f,  0.5f,  0.5f,                                                                   \
+    1.0f, -0.5f,  0.5f                                                                    \
+}, std::vector<unsigned int>{0, 1, 2, 0, 3, 2}, vec4(1, 1, 1, 1));                        \
+                                                                                          \
+MirrorObj.AddComponent<Mirror>()->SetMirror("0,", &mainRenderer.view);                    \
+[&](){MirrorObj.GetComponent<Mirror>()[0]->Size = vec2(-2, 2); ((char*)MirrorObj.GetComponent<Mirror>()[0]->GUI_VARS()[0].second[4])[2] = '3'; }()
+
+#pragma endregion
 INIT
 {
     #pragma region  ImGui Initializing1
@@ -118,41 +154,18 @@ INIT
         GUIArrows.AddComponent<Mesh>()->SetMesh(std::vector<float>{0.005f, -0.005f, 0.15f,0.005f, 0.005f, 0.15f,-0.005f, -0.005f, 0.15f,-0.005f, 0.005f, 0.15f,0.0f, 0.0f, 0.20f}, std::vector<unsigned int>{ 0, 1, 4, 0, 2, 4, 1, 3, 4, 2, 3, 4}, (float*)&THEME_COLOR);
     }
 
-    Object Ass;
-    Ass.name = "obj1";
-    Ass.AddComponent<Transform>()->SetTransform(vec3(0), vec3(1));
-    Ass.AddComponent<Mesh>()->SetMesh(std::vector<float>{
-        -0.5f, -0.5f, -0.f,
-            -0.5f, 0.5f, -0.0f,
-            0.5f, 0.5f, -0.0f,
-            0.5f, -0.5f, -0.0f
-    }, std::vector<unsigned int>{0, 1, 2, 0, 3, 2}, vec4(1, 1, 1, 1));
-    
-    Object Cube;
-    Cube.name = "mirror";
-    Cube.AddComponent<Transform>()->SetTransform(vec3(0), vec3(1));
-    Cube.AddComponent<Mesh>()->SetMesh(std::vector<float>{
-     2.0f,-0.5f, -0.5f,
-     2.0f, 0.5f, -0.5f,
-     1.0f, 0.5f, 0.5f,
-     1.0f,-0.5f, 0.5f
-    }, std::vector<unsigned int>{0, 1, 2, 0, 3, 2}, vec4(1, 1, 1, 1));
+    demo();
 
-    
-
-    //Cube.AddComponent<Texture>()->SetTexture("C:/Users/PC/Desktop/c coding/GreyModel3D/src/Textures/cubemix.png");
-    Cube.AddComponent<Mirror>()->SetMirror("0,", &mainRenderer.view);
-    Cube.GetComponent<Mirror>()[0]->Size = vec2(2, 2);
-
-    Object Background;
-    Background.name = "background";
-    Background.AddComponent<Transform>()->SetTransform(vec3(0), vec3(1));
-    Background.AddComponent<Mesh>()->SetMesh(std::vector<float>{
-        2.1f, -0.5f, -0.5f,
-            2.1f, 0.5f, -0.5f,
-            1.1f, 0.5f, 0.5f,
-            1.1f, -0.5f, 0.5f
+    Object TextureObj;                                                              
+    TextureObj.name = "TextureObj";
+    TextureObj.AddComponent<Transform>()->SetTransform(vec3(-1,0,1), vec3(1));
+    TextureObj.AddComponent<Mesh>()->SetMesh(std::vector<float>{
+        -0.5f, -0.5f, -0.0f,
+        -0.5f,  0.5f, -0.0f,
+         0.5f,  0.5f, -0.0f,
+         0.5f, -0.5f, -0.0f
     }, std::vector<unsigned int>{0, 1, 2, 0, 3, 2}, vec4(1, 1, 1, 1));
+    TextureObj.AddComponent<Texture>()->SetTexture("Textures\\cubemix.png");
 
     mainRenderer.view[3][3] = 2;
     #pragma region Mouse Vars

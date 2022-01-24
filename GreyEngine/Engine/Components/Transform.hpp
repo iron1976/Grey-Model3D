@@ -68,7 +68,7 @@ public:
 	#endif
 	{
 
-		glUniform3f(glGetUniformLocation(*CurrentShader<>, "objectPosition"), Position.x, Position.y, Position.z);
+		glUniform3f(glGetUniformLocation(*CurrentShader<>, "objectPosition"), Position.x, Position.y, -Position.z);
 		if(AutoScale == nullptr)
 			glUniform3f(glGetUniformLocation(*CurrentShader<>, "objectScale"), Scale.x, Scale.y, Scale.z);
 		else

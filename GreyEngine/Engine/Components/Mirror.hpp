@@ -13,7 +13,7 @@ class Mirror : public Component
 	char* ObjectIDs = (char*)(calloc(200, 1));
 
 public:
-	std::vector<std::pair<std::string, std::vector<void*>>>  GUI_VARS()
+	std::vector<std::pair<std::string, std::vector<void*>>> GUI_VARS()
 	{
 		std::vector<std::pair<std::string, std::vector<void*>>> res;
 		res.push_back(std::make_pair("IDs", std::vector<void*>{ (void*)0x000001, (void*)1, nullptr, (void*)0, this->ObjectIDs }));
