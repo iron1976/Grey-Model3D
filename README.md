@@ -32,4 +32,6 @@ SizY: Height of the reflection if this var is negative reflection will be invert
 <br>
 <br>
 <h2>Export .obj file</h2>
+Click to your object and click on Save Object option write your path to export and click on Save Thats it!
 <img src="https://cdn.discordapp.com/attachments/711524717743308821/935146135587266560/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/711524717743308821/935146238825865276/unknown.png">
