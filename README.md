@@ -30,7 +30,7 @@ IDs: ID(s) of objects that will be reflected on mirror ex: IDs:6,1 object with i
 SizX: Width of the reflection if this var is negative reflection will be inverted horizontally, default: 2<br>
 SizY: Height of the reflection if this var is negative reflection will be inverted vertically, default: 2<br>
 <br>
-<br>
+<h1>How-To?</h1>
 <h2>Export .obj file</h2>
 Click to your object and click on Save Object option write your path to export and click on Save That's it!
 <img src="https://cdn.discordapp.com/attachments/711524717743308821/935146135587266560/unknown.png">
