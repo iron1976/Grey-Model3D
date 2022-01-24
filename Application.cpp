@@ -164,11 +164,11 @@ INIT
         GUIArrows.AddComponent<Mesh>()->SetMesh(std::vector<float>{0.005f, -0.005f, 0.00f,0.005f, -0.005f, 0.15f,0.005f,  0.005f, 0.00f,0.005f,  0.005f, 0.15f,-0.005f, -0.005f, 0.00f,-0.005f, -0.005f, 0.15f,-0.005f, 0.005f, 0.00f,-0.005f, 0.005f, 0.15f,}, std::vector<unsigned int>{0, 1, 2, 1, 2, 3, 4, 5, 6, 5, 6, 7,0, 4, 5, 0, 1, 5, 2, 3, 6, 6, 7, 3}, vec4(0, 0, 1, 1));
         GUIArrows.AddComponent<Mesh>()->SetMesh(std::vector<float>{0.005f, -0.005f, 0.15f,0.005f, 0.005f, 0.15f,-0.005f, -0.005f, 0.15f,-0.005f, 0.005f, 0.15f,0.0f, 0.0f, 0.20f}, std::vector<unsigned int>{ 0, 1, 4, 0, 2, 4, 1, 3, 4, 2, 3, 4}, (float*)&THEME_COLOR);
     }
-
-    demo();
-
+    {//Work here!
 
 
+
+    }
     mainRenderer.view[3][3] = 2;
     #pragma region Mouse Vars
     int mouse_pressed = 0;
