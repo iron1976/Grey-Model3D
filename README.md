@@ -40,3 +40,5 @@ Click to your object and click on Save Object option write your path to export a
 Go to inspector click to the plus option write your path click on Add Object option That's it!
 <img src="https://cdn.discordapp.com/attachments/711524717743308821/935146401074147398/unknown.png">
 <img src="https://cdn.discordapp.com/attachments/711524717743308821/935146447790301254/unknown.png">
+
+Note: While importing .obj files only mesh data will be imported.
