@@ -2,8 +2,8 @@
 This is a 3D Model Editor. You can either import or export .obj files using this 3D Model Editor.
 <h1>Components</h1>
 <h2>Transform</h2>
-This component is a must otherwise nothing will be rendered.
-You can control the position and the size of the object.
+This component is a must otherwise nothing will be rendered.<br>
+You can control the position and the size of the object.<br>
 Variables:<br>
 SizX: Width of the object, default: 1<br>
 SizY: Height of the object, default: 1<br>
