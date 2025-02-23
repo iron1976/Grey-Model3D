@@ -1,9 +1,7 @@
 # Grey-Model3D
 <a href="https://www.youtube.com/watch?v=ULxS7v6Lmf8">
   <img src="https://img.youtube.com/vi/ULxS7v6Lmf8/hqdefault.jpg" width="400">
-</a>
-[![Watch the video](https://img.youtube.com/vi/ULxS7v6Lmf8/maxresdefault.jpg)](https://www.youtube.com/watch?v=ULxS7v6Lmf8)
-
+</a> 
 This is a 3D Model Editor. You can either import or export .obj files using this 3D Model Editor.
 <h1>Components</h1>
 <h2>Transform</h2>
